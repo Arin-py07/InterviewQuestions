@@ -1,0 +1,100 @@
+1) What is Python? What are the benefits of using Python?
+
+Python is a general purpose high level programming language.
+
+Benifits: 1. Simple and easy to learn:
+2. Freeware and Open Source:
+3. High Level Programming language:
+4. Platform Independent:
+5. Portability:
+6. Dynamically Typed:
+7. Both Procedure Oriented and Object Oriented:
+8. Interpreted:
+9. Extensible:
+10. Embedded:
+11. Extensive Library:
+
+
+2) What is PEP 8?
+
+PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable.
+
+
+3) What is pickling and unpickling?
+
+ Sometimes we have to write total state of object to the file and we have to read total
+ object from the file.
+ 
+ The process of writing state of object to the file is called pickling and the process of
+ reading state of an object from the file is called unpickling.
+ 
+ We can implement pickling and unpickling by using pickle module of Python.
+ 
+ pickle module contains dump() function to perform pickling.
+ 
+ pickle.dump(object,file)
+ pickle module contains load() function to perform unpickling
+ 
+ obj=pickle.load(file)
+ 
+ ***Check 17 pages from pdf***
+ 
+ 
+ 4) How is Python interpreted?
+ 
+ We are not required to compile Python programs explcitly. Internally Python interpreter
+ will take care that compilation.
+ If compilation fails interpreter raised syntax errors. Once compilation success then PVM
+ (Python Virtual Machine) is responsible to execute.
+ 
+ 
+ 5) How is memory managed in Python?
+ 
+ Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap, and the interpreter takes care of this Python private heap.
+ The allocation of Python heap space for Python objects is done by the Python memory manager. The core API gives access to some tools for the programmer to code.
+ Python also has an inbuilt garbage collector, which recycles all the unused memory and frees the memory and makes it available to the heap space.
+ 
+ 
+ 6) What are the tools that help to find bugs or perform the static analysis?
+
+ PyChecker is a static analysis tool that detects the bugs in Python source code and warns about the style and complexity of the bug. Pylint is another tool that verifies whether the module meets the coding standard. 
+ 
+ 
+ 7) What are Python decorators?
+ 
+ Decorator is a function which can take a function as argument and extend its functionality
+ and returns modified function with extended functionality.
+ 
+ **pls check 160 pages **
+ 
+ 
+ 8) What is the difference between list and tuple?
+
+ The difference between list and tuple is that list is mutable while tuple is not. Tuple can be hashed, for example., as a key for dictionaries.
+ 
+ 
+ 9) How are arguments passed by value or by reference?
+
+ Everything in Python is an object, and all variables hold references to the objects. The reference values are according to the functions. Therefore, you cannot change the value of the references. However, you can change the objects if it is mutable. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
