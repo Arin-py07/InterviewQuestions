@@ -1657,4 +1657,4 @@ On the contrary, the disadvantage could be that a variable can get changed accid
 200. What Is The Return Value Of The Trunc() Function?
 Ans: The Python trunc() function performs a mathematical operation to remove the decimal values from a particular expression and provides an integer value as its output.
 
-
+201.
